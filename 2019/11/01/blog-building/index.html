@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Dong Yuanxin" />
+  
+  
+  <title>0思维量的hexo+github博客教程 | Hexo</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  
+    <meta name="keywords" content="Hexo, Theme-AD" />
+  
+
+  
+  <meta name="description" content="Konyu的..">
+
+  
+
+  
+
+  
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async></script>
+  
+
+  
+
+  
+
+  <script>
+  // theme-ad's config script
+  // it can be used in every script
+  
+  window.AD_CONFIG = {
+    leancloud: {"count":false},
+    welcome: {"enable":false,"interval":30},
+    start_time: "2018-02-10",
+    passwords: ["efe07af7441da2b69c4a41e42e73be4db47f66010a56900788a458354a7373ec", ],
+    is_post: true,
+    lock: false,
+    author: "Dong Yuanxin",
+    share: {"twitter":"false#true","facebook":"false#true","weibo":"false#true","qq":true,"wechat":"false#true"},
+    mathjax: true,
+    page_type: "",
+    root: "/"
+  };
+</script>
+
+  <script src="/vendor/sha256.min.js"></script>
+<script src="/js/auth.js"></script>
+<script src="/js/index.js"></script>
+<script src="/vendor/qrcode.min.js"></script>
+
+  
+    <link rel="icon" href="https://passport.bilibili.com/favicon.ico">
+    <link rel="apple-touch-icon" href="/images/touch-icon.png">
+  
+
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="/css/index.css">
+<link rel="stylesheet" href="/styles/components/highlight/highlight.css">
+
+  
+</head>
+  <body>
+    <header class="site-header">
+  <div class="site-header-brand">
+    
+      <span class="site-header-brand-title">
+        <a href="/">Konyu</a>
+      </span>
+    
+    
+      <span class="site-header-brand-motto"> | 最后挣扎</span>
+    
+  </div>
+  <div class="site-header-right">
+    <nav class="site-header-navigation">
+      
+        <a href="/" target="_self">首页</a>
+      
+        <a href="/archives/" target="_self">归档</a>
+      
+        <a href="/tags/" target="_self">标签</a>
+      
+        <a href="/categories/" target="_self">分类</a>
+      
+        <a href="/friends/" target="_self">友链</a>
+      
+        <a href="/about/" target="_self">关于</a>
+      
+    </nav>
+    <div class="site-header-btn">
+      
+      <a href="javascript:void(0);" id="site-search">
+        <i class="fa fa-search"></i>
+      </a>
+      <a href="javascript:void(0);" id="site-nav-btn">
+        <i class="fa fa-ellipsis-v"></i>
+      </a>
+    </div>
+  </div>
+</header>
+<nav class="table-content" id="site-nav">
+  <div class="table-content-title">
+    <span>导航</span>
+  </div>
+  <div class="table-content-main">
+    <ol class="toc">
+      
+        <li class="toc-item">
+          <a href="/" target="_self">
+            首页
+          </a>
+        </li>
+      
+        <li class="toc-item">
+          <a href="/archives/" target="_self">
+            归档
+          </a>
+        </li>
+      
+        <li class="toc-item">
+          <a href="/tags/" target="_self">
+            标签
+          </a>
+        </li>
+      
+        <li class="toc-item">
+          <a href="/categories/" target="_self">
+            分类
+          </a>
+        </li>
+      
+        <li class="toc-item">
+          <a href="/friends/" target="_self">
+            友链
+          </a>
+        </li>
+      
+        <li class="toc-item">
+          <a href="/about/" target="_self">
+            关于
+          </a>
+        </li>
+      
+    </ol>
+  </div>
+</nav>
+<div id="site-process"></div>
+    <main>
+      
+  <div class="passage">
+  <div class="passage-meta">
+    <span>
+      <i class="fa fa-calendar"></i>2019-11-01
+    </span>
+    
+    
+      <span>
+        | <i class="fa fa-unlock-alt"></i>UNLOCK
+      </span>
+    
+  </div>
+  <h1 class="passage-title">
+    0思维量的hexo+github博客教程
+  </h1>
+  
+  <article class="passage-article">
+    <blockquote>
+<p>Theresa发现，最近几篇Luogu日报都是关于hexo的内容，决定将自己当初搭建博客时写下的记录也发上来</p>
+</blockquote>
+<blockquote>
+<p><del>万一过审了呢QvQ</del></p>
+</blockquote>
+<p>—正文—</p>
+<hr>
+<p>首先，$ hexo+github $搭建博客的精髓在于$Free$，也就是使用的是$github$提供的空间而不是购买服务器，也就是Luogu的同学们不必花格外的$Money$了<del>毕竟还有₵₵₤在</del>。</p>
+<h4 id="STEP1"><a href="#STEP1" class="headerlink" title="STEP1"></a>STEP1</h4><p>拥有属于自己的github账号的同学请看STEP2</p>
+<p>打开<a href="https://github.com/" target="_blank" rel="noopener">github官网</a>，已有账号点击<a href="https://github.com/login" target="_blank" rel="noopener">登录</a>，或者新人点击<a href="https://github.com/join?source=header-home" target="_blank" rel="noopener">注册</a>。</p>
+<p>注册$github$账号只需要用邮箱，所以手机不在<del>的机房里</del>也可以轻松完成。</p>
+<p>(外国网站在天朝可能会有卡顿或加载不出来的情况，多试几次就好啦</p>
+<h4 id="STEP2"><a href="#STEP2" class="headerlink" title="STEP2"></a>STEP2</h4><p>已经建立好$Repository$ 的同学请看STEP3</p>
+<p>登录账号并打开<a href="https://github.com/" target="_blank" rel="noopener">github官网</a>，在首页点击的$Start$ $a$ $project$ 按钮，也就是<a href="https://github.com/new" target="_blank" rel="noopener">这里</a></p>
+<p>在 $Repository$ $name$ 一栏里输入名称，格式为 “ 你的github用户名+.github.io “</p>
+<blockquote>
+<p>举个栗子：SSS-Theresa 是Theresa的用户名，那么Theresa所要键入的就是” SSS-Theresa.github.io “ </p>
+</blockquote>
+<p>也就是这样</p>
+<p><img src="https://cdn.luogu.com.cn/upload/pic/53620.png" alt="Pic1"></p>
+<p>由于Theresa已经建立了相同名称的$repository$，所以会提示重复，同学们就不会这样啦！</p>
+<p><img src="https://cdn.luogu.com.cn/upload/pic/53624.png" alt="Pic2"></p>
+<p>下面的内容大致就是这样，通常情况下，选择$Public$即可。</p>
+<h4 id="STEP3"><a href="#STEP3" class="headerlink" title="STEP3"></a>STEP3</h4><p>已经安装好$Git$与$Node.js$的同学请看STEP4</p>
+<p>$github$部分的配置暂告一段落，接下来是环境的配置(重要QvQ)</p>
+<p>需要用到的软件是 <a href="https://git-scm.com/" target="_blank" rel="noopener">Git</a>和<a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener">Node.js</a>这二者，如果是普通的$OIER$应该是没有的，所以直接点击上面的链接即可。</p>
+<p>(Theresa:如果官网比较卡顿，可以选择$Google$一下，在其他应用商店中下载</p>
+<p>安装部分…官网上会自动选择合适的版本，在其他地方下载则要先在<code>控制面板\系统和安全\系统</code>中查看是32位还是64位，注意了喽，不对应的版本是无法安装的</p>
+<p>安装时可能有较多选项，一直按”Next”即可，最终按下”Finish”完成安装。</p>
+<p>(Theresa:$Node.js$在完成安装时窗口有一定概率<del>对Theresa来说是100%</del> 到桌面最左侧，多数时候无法拖出，直接关闭即可</p>
+<h4 id="STEP4"><a href="#STEP4" class="headerlink" title="STEP4"></a>STEP4</h4><blockquote>
+<p>建立文件夹，文件夹名称最好是英文…如” hexo “</p>
+</blockquote>
+<p><img src="https://cdn.luogu.com.cn/upload/pic/53628.png" alt="Pic3"></p>
+<p>接下来在文件夹中右击，再点击 $Git$ $Bash$ $Here$</p>
+<p><img src="https://cdn.luogu.com.cn/upload/pic/53629.png" alt="Pic4"></p>
+<p>打开的是类似这样的窗口</p>
+<p><img src="https://cdn.luogu.com.cn/upload/pic/53631.png" alt="Pic5"></p>
+<h4 id="接下来是重头戏，请同学们务必按步骤进行QvQ"><a href="#接下来是重头戏，请同学们务必按步骤进行QvQ" class="headerlink" title="接下来是重头戏，请同学们务必按步骤进行QvQ"></a>接下来是重头戏，请同学们务必按步骤进行QvQ</h4><p>有些步骤可以在其他位置进行，但为了方便在这里一并进行</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">cd D:/hexo</span><br><span class="line">//定位到该位置，是为了以防万一，cd后面的路径改为自己建立文件夹的路径</span><br><span class="line">npm  install  hexo-cli -g</span><br><span class="line">//全局安装hexo需要的内容</span><br><span class="line">hexo init</span><br><span class="line">//在当前文件夹安装hexo所需文件</span><br><span class="line">npm install</span><br><span class="line">//在当前文件夹安装hexo所需文件</span><br><span class="line">git config  --global  user.name  &quot;SSS-Theresa&quot;  </span><br><span class="line">git config  --global  user.email  SSS-Theresa@qq.com</span><br><span class="line">//这两条是配置本电脑中的个人信息</span><br><span class="line">//这两条不要直接复制哇QAQ，要将后面的东西改为自己的呢...</span><br><span class="line">ssh-keygen -t rsa -C SSS-Theresa@qq.com</span><br><span class="line">//生成本地的SSH码</span><br><span class="line">//同样要将后面的东西改为自己的呢...</span><br><span class="line">//这一项会出现需要键入其他东西(似乎)，直接按回车即可，若出现(yes/no)则键入yes</span><br><span class="line">cat ~/.ssh/id_rsa.pub、</span><br><span class="line">//键入后会出现一大串字符——开始下一步</span><br></pre></td></tr></table></figure>
+
+<p>完成上面的步骤后再次打开<a href="https://github.com/" target="_blank" rel="noopener">github官网</a>，点击<br>右侧头像，再点击下拉菜单栏的<a href="https://github.com/settings/profile" target="_blank" rel="noopener">Settings</a></p>
+<p><img src="https://cdn.luogu.com.cn/upload/pic/53636.png" alt="Pic6"></p>
+<p>//Theresa只截一部分图是在给大家省流量哇QAQ</p>
+<p>点击打开页面中的<a href="https://github.com/settings/keys" target="_blank" rel="noopener">SSH and GPG keys</a></p>
+<p><img src="https://cdn.luogu.com.cn/upload/pic/53640.png" alt="Pic7"></p>
+<p>点击<a href="https://github.com/settings/ssh/new" target="_blank" rel="noopener">New SSH key</a></p>
+<p><img src="https://cdn.luogu.com.cn/upload/pic/53641.png" alt="Pic8"></p>
+<p>将复制过来的大串字符粘贴到$Key$下方的本文框中</p>
+<p><img src="https://cdn.luogu.com.cn/upload/pic/53645.png" alt="Pic9"></p>
+<p>再点击$Add$ $SSH$ $key$</p>
+<p>完成！</p>
+<p>最后打开之前建立的文件夹，打开文件 _config.yml</p>
+<p><img src="https://cdn.luogu.com.cn/upload/pic/53647.png" alt="Pic10"></p>
+<p>将文档打开到最末，将</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type:</span><br></pre></td></tr></table></figure>
+<p>替换为</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: git@github.com:SSS-Theresa/SSS-Theresa.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<p>//当然要将信息改为自己的啦</p>
+<h4 id="STEP5"><a href="#STEP5" class="headerlink" title="STEP5"></a>STEP5</h4><p>关于hexo的基础配置已经正式结束，但若是按照Theresa的步骤，同学们至今应当未曾见过自己的博客(QAQ</p>
+<p>再次在建立的文件夹根目录下右击，再点击 $Git$ $Bash$ $Here$，输入</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<p>此时(先不要按Ctrl+C哇)打开<a href="http://localhost:4000/" target="_blank" rel="noopener">预览网页</a></p>
+<p>即可看到自己的blog啦！</p>
+<p>这时(请放心地按下Ctrl+C吧)使用</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+<p>就可以上传自己的博客了</p>
+<blockquote>
+<p>Bug警告：</p>
+</blockquote>
+<blockquote>
+<p>如果出现上传失败的情况下，可以尝试键入</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm  install  hexo-deployer-git  --save</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>如果想知道常用hexo命令语句，请翻到本页面最末</p>
+</blockquote>
+<h4 id="STEP6"><a href="#STEP6" class="headerlink" title="STEP6"></a>STEP6</h4><p>毫无疑问，初生的博客十分简陋，我们要对其进行修改</p>
+<p>首先是外观。</p>
+<p>点击</p>
+<p><a href="https://hexo.io/themes/" target="_blank" rel="noopener">hexo官方主题网页 - Themes | Hexo</a></p>
+<p><a href="https://www.zhihu.com/question/24422335/answer/115800792" target="_blank" rel="noopener">有哪些好看的 Hexo 主题? - 知乎</a></p>
+<p>选择心仪的主题，或者直接在Google上搜索亦可</p>
+<p>我们以最常用的主题之一——next 为例</p>
+<p>进入主题的github源代码页面</p>
+<p><img src="https://cdn.luogu.com.cn/upload/pic/53649.png" alt="Pic"></p>
+<p>点击$Clone$ $or$ $download$</p>
+<p><img src="https://cdn.luogu.com.cn/upload/pic/53650.png" alt="Pic12"></p>
+<p>点击$Download$ $ZIP$</p>
+<p>下载后得到的是一个压缩包，解压后将整个文件夹放到<code>D:\hexo\themes</code>中</p>
+<p>打开_config.yml</p>
+<p>搜索”theme:”(不连双引号)</p>
+<p>将默认的 “landscape” 改为文件夹名称</p>
+<p>注意，粘贴后要确认名称与英文冒号之间有一个英文空格，否则会报错！</p>
+<p>保存后再使用<code>hexo s</code> 查看效果吧</p>
+<p>再具体的美化就不多说了，以后可能会写吧</p>
+<h4 id="STEP7"><a href="#STEP7" class="headerlink" title="STEP7"></a>STEP7</h4><p>但此时但博客依旧不够完善：</p>
+<blockquote>
+<p>1.这还不是自己的<br>2.没有博文</p>
+</blockquote>
+<p>STEP7就来解决这样的问题嘞。</p>
+<p>打开文件夹根目录下的_config.yml</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"># Site</span><br><span class="line">title: Hexo</span><br><span class="line">#网站的标题名称</span><br><span class="line">subtitle:</span><br><span class="line">#副标题</span><br><span class="line">description:</span><br><span class="line">#一句话介绍</span><br><span class="line">keywords:</span><br><span class="line">#？</span><br><span class="line">author: John Doe</span><br><span class="line">#作者名称</span><br><span class="line">language:</span><br><span class="line">#语言</span><br><span class="line">timezone:</span><br><span class="line">#？</span><br></pre></td></tr></table></figure>
+<p>将各项内容更改，变成自己的博客吧！</p>
+<p>(打问号的反正用不到QAQ…如果有同学问我再补吧…</p>
+<p>但是——如果就这样将标题改为带有中文的，如$Theresa的小站$</p>
+<p>会惊讶地发现，标题是一串奇怪的符号</p>
+<p>事实上，默认地文件格式是ANSI，而中文在这种格式的文件中无法正常预览</p>
+<p>点击文件——&gt;另存为</p>
+<p><img src="https://cdn.luogu.com.cn/upload/pic/53657.png" alt="Pic13"></p>
+<p>将编码改为 UTF-8，再保存</p>
+<p><img src="https://cdn.luogu.com.cn/upload/pic/53659.png" alt="Pic14"></p>
+<p>再打开预览就可以啦！(重新打开)</p>
+<p>开始第二项议程——博文</p>
+<p>有2种方法<del>(手动和自动)</del>，但既然楼上的dalao们好像讲的都是自动化<del>生产</del>博文，Theresa就直接手动吧…</p>
+<p>打开建立的文件夹根目录\source_posts</p>
+<p>新建本文文档，并将名称改为”名称+.md”的形式(后缀txt不要留啊)，用上面的方法将编码改为UTF-8</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: </span><br><span class="line">#标题</span><br><span class="line">tags: </span><br><span class="line">#标签</span><br><span class="line">date: </span><br><span class="line">#日期</span><br><span class="line">updated: </span><br><span class="line">#更新日期</span><br><span class="line">categories: </span><br><span class="line">#分类</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<p>将这样的内容粘贴进去，填好内容，即可开始写博文啦！</p>
+<h4 id="STEP-final"><a href="#STEP-final" class="headerlink" title="STEP final"></a>STEP final</h4><p>至此，一个全新的博客已经出现在你的眼前了，下面给出的则是常用的命令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">//在本地建立hexo配置</span><br><span class="line">hexo s</span><br><span class="line">//在本地预览本地建立的配置</span><br><span class="line">hexo clean</span><br><span class="line">//清除本地建立的配置</span><br><span class="line">hexo d</span><br><span class="line">//上传本地建立的配置</span><br></pre></td></tr></table></figure>
+
+<p>就说这些，虽然其他的命令，但日常所需但就是这么4条，Theresa也不想复制粘贴什么东西给大家看，毕竟实用性第一嘛QwQ</p>
+<p>如果还有疑问，在下面留言或是私信我吧</p>
+
+  </article>
+  <aside class="table-content" id="site-toc">
+  <div class="table-content-title">
+    <i class="fa fa-arrow-right fa-lg" id="site-toc-hide-btn"></i>
+    <span>目录</span>
+  </div>
+  <div class="table-content-main">
+    <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#STEP1"><span class="toc-text">STEP1</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#STEP2"><span class="toc-text">STEP2</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#STEP3"><span class="toc-text">STEP3</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#STEP4"><span class="toc-text">STEP4</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#接下来是重头戏，请同学们务必按步骤进行QvQ"><span class="toc-text">接下来是重头戏，请同学们务必按步骤进行QvQ</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#STEP5"><span class="toc-text">STEP5</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#STEP6"><span class="toc-text">STEP6</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#STEP7"><span class="toc-text">STEP7</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#STEP-final"><span class="toc-text">STEP final</span></a></li></ol>
+  </div>
+</aside>
+  
+    <aside class="passage-copyright">
+      <div>本文作者: Konyu</div>
+      
+        <div>
+          原文链接: 
+          <a href="" target="_blank">http://yoursite.com/2019/11/01/blog-building/</a>
+        </div>
+      
+      <div>
+        版权声明: 本博客所有文章除特别声明外, 均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a> 许可协议. 转载请注明出处!
+      </div>
+    </aside>
+  
+  
+</div>
+
+    </main>
+    
+    <div class="site-footer-wrapper">
+  <footer class="site-footer">
+    
+    
+
+
+  </footer>
+</div>
+    <div id="site-layer" style="display:none;">
+  <div class="site-layer-content">
+    <div class="site-layer-header">
+      <span class="site-layer-header-title" id="site-layer-title"></span>
+      <i class="fa fa-close" id="site-layer-close"></i>
+    </div>
+    <div class="site-layer-body" id="site-layer-container">
+      <div class="site-layer-input" id="site-layer-search" style="display: none;">
+        <div class="site-layer-input-choose">
+          <a href="javascript:void(0);" title="Change Search Engine">Google</a>
+        </div>
+        <input type="text">
+        <i class="fa fa-search"></i>
+      </div>
+      
+      <div id="site-layer-welcome" style="display:none;"></div>
+    </div>
+  </div>
+</div>
+    
+
+<div class="bottom-bar">
+  <div class="bottom-bar-left">
+    <a href="javascript:void(0);" data-enable="false">
+      <i class="fa fa-arrow-left"></i>
+    </a>
+    <a href="/2019/11/01/hello-world/" data-enable="true">
+      <i class="fa fa-arrow-right"></i>
+    </a>
+  </div>
+  <div class="bottom-bar-right">
+    <a href="javascript:void(0);" data-enable="true" id="site-toc-show-btn">
+      <i class="fa fa-bars"></i>
+    </a>
+    
+    <a href="javascript:void(0);" id="site-toggle-share-btn">
+      <i class="fa fa-share-alt"></i>
+    </a>
+    
+    <a href="javascript:void(0);" id="back-top-btn">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+  </div>
+</div>
+    <div id="share-btn">
+  
+  
+  
+  
+    <a id="share-btn-qq" href="javascript:void(0);" target="_blank">
+      <i class="fa fa-qq"></i>
+    </a>
+  
+  
+</div>
+    
+
+
+
+
+
+    
+  </body>
+</html>
